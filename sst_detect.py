@@ -8,7 +8,7 @@ from math import radians
 from pytz import timezone
 import sst
 
-raw_data = pd.read_csv('./data/abnormal_frequency.csv')
+raw_data = pd.read_csv('./abnormal_frequency.csv')
 raw_data = np.array(raw_data['data'])
 data = []
 results = []
